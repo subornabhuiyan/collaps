@@ -1,0 +1,42 @@
+@font-face{
+    font-family:Roboto-Medium ;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family:Roboto-Regular ;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family:Poppins-Bold ;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+*{
+    font-size: 16px;
+    color: #010101 !important;
+}
+h2,h3,h4,h5,h6,a,button{
+    font-family: Roboto-Medium;
+    font-weight: 500;
+}
+h1{
+    font-family: Poppins-Bold ;
+    font-weight: 700;
+}
+p,span{
+    font-family: Roboto-Regular;
+    font-weight: 400;
+}
+/* collaps start */
+.col-btn{
+    margin-left: 20px;
+    border: none;
+    background: linear-gradient(45deg, yellow, tomato, red);
+    transition: .3s;
+}
+.col-btn:hover{
+    color: white;
+}
+.all-col-btn a{
+    margin-left: 0;
+}
+/* collaps end */
